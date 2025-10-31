@@ -1,0 +1,17 @@
+.profile-avatar {
+  border: 3px solid #0d6efd; /* Blue border for avatar */
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-outline-danger {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}

@@ -1,0 +1,55 @@
+/* Navbar.css */
+*{
+     font-size: 20px;
+}
+/* Logo styling */
+.font-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.font-logo:hover {
+  color: #00bfff; /* Blue hover color */
+}
+
+/* Highlight part of brand name */
+.brand-highlight {
+  color: #00bfff;
+}
+
+/* Navbar text links */
+.font-text .nav-link {
+  color: #ddd;
+  font-weight: 500;
+  margin-left: 15px;
+  transition: color 0.3s ease, transform 0.2s ease;
+ 
+}
+
+.font-text .nav-link:hover{
+    color: rgb(108, 112, 112);
+}
+
+/* Active link color */
+.font-text .nav-link.active {
+  color: #00bfff !important;
+    padding: 7px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+
+
+
+
+/* Mobile navbar background when expanded */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
