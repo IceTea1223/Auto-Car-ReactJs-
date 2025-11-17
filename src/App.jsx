@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 
 import Home from "./pages/home";
 import Car from "./pages/car";
-import About from "./pages/about";
+import About from "./pages/About";
 import Contact from "./pages/contact";
 import DetailCard from "./pages/DetailCard";
 import PaymentPage from "./pages/PaymentPage";

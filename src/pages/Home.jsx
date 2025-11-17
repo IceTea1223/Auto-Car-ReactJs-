@@ -1,9 +1,7 @@
 import React from "react";
 import "../assets/css/Home.css";
-import CarData from "../data/carData";
-import DetailCard from "./DetailCard";
-import { Link } from "react-router-dom";
-import About from "./about";
+import CarData from "../data/CarData";
+import About from "./About";
 import Contact from "./contact";
 import FeatureCar from "../components/FeatureCar";
 

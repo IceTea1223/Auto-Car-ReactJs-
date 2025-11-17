@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import CarData from "../data/carData";
+import CarData from "../data/CarData";
 
 function Car() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -51,7 +51,6 @@ function Car() {
       <section className="all-cars py-5">
         <div className="container">
           <h2 className="section-title text-center mb-4">All Cars</h2>
-
           {/* Search + Filters + Sort */}
           <motion.div
             className="row mb-4 g-2 justify-content-center"
