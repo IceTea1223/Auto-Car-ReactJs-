@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import CarData from "../data/carData";
+import CarData from "../data/CarData";
 
 function DetailCard() {
   const { id } = useParams();
@@ -21,7 +21,7 @@ function DetailCard() {
   return (
     <div className="container py-5 font-text">
       <div className="row g-4 align-items-center">
-        {/* 🖼️ Car Image */}
+        {/*Car Image */}
         <div className="col-md-6">
           <img
             src={car.image}
@@ -31,7 +31,7 @@ function DetailCard() {
           />
         </div>
 
-        {/* 📄 Car Details */}
+        {/*Car Details */}
         <div className="col-md-6">
           <h2 className="fw-bold mb-2">
             {car.brand} {car.name}

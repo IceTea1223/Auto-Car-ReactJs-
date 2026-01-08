@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import CarData from "../data/carData";
+import CarData from "../data/CarData";
 
 function PaymentPage() {
   const { id } = useParams();

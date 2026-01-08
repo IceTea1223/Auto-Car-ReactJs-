@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import CarData from "../data/carData";
+import CarData from "../data/CarData";
 
 const featuredCars = CarData.slice(0, 24);
 
