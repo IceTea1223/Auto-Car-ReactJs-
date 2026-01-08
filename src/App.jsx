@@ -5,13 +5,13 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import Home from "./pages/home";
-import Car from "./pages/car";
+import Home from "./pages/Home";
+import Car from "./pages/Car";
 import About from "./pages/About";
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 import DetailCard from "./pages/DetailCard";
 import PaymentPage from "./pages/PaymentPage";
 import Profile from "./pages/Profile";
